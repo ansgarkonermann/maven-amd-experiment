@@ -7,7 +7,7 @@ Run
 
     mvn clean verify -amd -pl dependency-management
 
-Expected outcome: `dependency-management` gets build, then `java-librar` and `gui` (since both import
+Expected outcome: `dependency-management` gets build, then `java-library` and `gui` (since both import
 `dependency-management`).
 
 Actual outcome: only `dependency-management` gets build.
